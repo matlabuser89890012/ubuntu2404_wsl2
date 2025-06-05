@@ -1,0 +1,44 @@
+{
+    // Editor settings
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.suggestSelection": "first",
+    // Python settings
+    "python.defaultInterpreterPath": "/home/uq/miniconda3/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=88",
+        "--extend-ignore=E203"
+    ],
+    "python.linting.mypyEnabled": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.completeFunctionParens": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "88"
+    ],
+    // Jupyter settings
+    "jupyter.alwaysTrustNotebooks": true,
+    "jupyter.askForKernelRestart": false,
+    "jupyter.themeMatplotlibPlots": true,
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    // Terminal settings
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    // Auto docstring generation
+    "autoDocstring.docstringFormat": "numpy",
+    // Git settings
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    // Auto-save settings
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000
+}
