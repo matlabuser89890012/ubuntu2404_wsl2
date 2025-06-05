@@ -153,3 +153,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Alias for managing dotfiles
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'

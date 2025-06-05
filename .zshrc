@@ -103,3 +103,8 @@ newdsproject() {
     echo "Data science project structure created at $1/"
 }
 
+# Alias for managing dotfiles
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# Automatically hide untracked files in dotfiles status
+dotfiles config --local status.showUntrackedFiles no
